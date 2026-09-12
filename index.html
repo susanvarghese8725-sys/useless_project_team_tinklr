@@ -1,1 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Please Leave</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            min-height: 100vh;
+            margin: 0;
+            background-color: #121212;
+            color: white;
+            text-align: center;
+        }
+        .stage {
+            position: relative;
+            width: 640px;
+            height: 480px;
+            border-radius: 12px;
+            overflow: hidden;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.5);
+            background-color: #000;
+        }
+        video, canvas {
+            width: 640px;
+            height: 480px;
+            position: absolute;
+            top: 0;
+            left: 0;
+        }
+        video {
+            transform: scaleX(-1);
+        }
+        #capturedCanvas {
+            display: none;
+            z-index: 2;
+        }
+        #message {
+            font-size: 28px;
+            font-weight: bold;
+            margin-top: 25px;
+            min-height: 40px;
+            color: #ff4757;
+        }
+        #submessage {
+            font-size: 18px;
+            color: #aaa;
+            margin-top: 10px;
+        }
+        button {
+            margin-top: 20px;
+            padding: 14px 28px;
+            font-size: 18px;
+            font-weight: bold;
+            color: #fff;
+            background-color: #ff4757;
+            border: none;
+            border-radius: 6px;
+            cursor: pointer;
+        }
+        button:hover {
+            background-color: #ff6b81;
+        }
+        #resetBtn {
+            display: none;
+            background-color: #3742fa;
+        }
+    </style>
+    <!-- TensorFlow.js and COCO-SSD Model -->
+    <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@tensorflow-models/coco-ssd" crossorigin="anonymous"></script>
+</head>
+<body>
+    <h1>"Please Leave"</h1>
 
+    <div class="stage">
+        <video id="webcam" autoplay playsinline></video>
+        <canvas id="capturedCanvas" width="640" height="480"></canvas>
+    </div>
+
+    <div id="message">Loading AI model, please wait...</div>
+    <div id="submessage"></div>
+
+    <button id="startBtn" style="display: none;">Start App</button>
+    <button id="resetBtn">Try Again</button>
+
+    <script src="script.js"></script>
+</body>
+</html>
