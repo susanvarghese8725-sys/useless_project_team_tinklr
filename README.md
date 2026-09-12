@@ -52,13 +52,19 @@ For Software:
 
 # Screenshots (Add at least 3)
 - Screenshot1: https://github.com/susanvarghese8725-sys/useless_project_team_tinklr/blob/main/Screenshot1.jpeg
-   Initial State: A setup screen prompting the user with "Click Start to begin." to grant webcam access.
-- Screenshot2: Failure State: The camera detects the player in the frame, triggering the red warning: "SECURITY ALERT! Target refuses to leave!"
-- Screenshot3: Success State: The player successfully ducks out of the camera view, prompting a Grand Theft Auto-style "mission passed!" overlay and the humorous message: "Congratulations! You photographed absolutely nothing."
+
+  A setup screen prompting the user with "Click Start to begin." to grant webcam access.
+- Screenshot2:
+
+   The camera detects the player in the frame, triggering the red warning: "SECURITY ALERT! Target refuses to leave!"
+- Screenshot3:
+
+  Success State: The player successfully ducks out of the camera view, prompting a Grand Theft Auto-style "mission passed!" overlay and the humorous message: "Congratulations! You photographed absolutely nothing."
 
 
 # Diagrams
 <img width="487" height="591" alt="Screenshot 2026-09-12 194705" src="https://github.com/user-attachments/assets/8dca037c-9bf6-46d5-bba4-7d9c1249ee12" />
+
 This diagram illustrates the real-time execution flow of the app: webcam frames are continuously processed by TensorFlow.js and COCO-SSD to detect human presence, triggering voice warnings and a red-flashing audio siren if an intruder lingers, while automatically initiating a 3-second countdown to capture an empty-room snapshot the moment the frame is clear.
 
 ### Project Demo
