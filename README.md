@@ -51,7 +51,8 @@ For Software:
 For Software:
 
 # Screenshots (Add at least 3)
-- Screenshot1: Initial State: A setup screen prompting the user with "Click Start to begin." to grant webcam access.
+- Screenshot1: https://github.com/susanvarghese8725-sys/useless_project_team_tinklr/blob/main/Screenshot1.jpeg
+   Initial State: A setup screen prompting the user with "Click Start to begin." to grant webcam access.
 - Screenshot2: Failure State: The camera detects the player in the frame, triggering the red warning: "SECURITY ALERT! Target refuses to leave!"
 - Screenshot3: Success State: The player successfully ducks out of the camera view, prompting a Grand Theft Auto-style "mission passed!" overlay and the humorous message: "Congratulations! You photographed absolutely nothing."
 
@@ -62,6 +63,7 @@ This diagram illustrates the real-time execution flow of the app: webcam frames 
 
 ### Project Demo
 https://github.com/susanvarghese8725-sys/useless_project_team_tinklr/blob/main/Demo.mp4
+
 This demonstration shows the "Please Leave" web application detecting a person in the frame, triggering voice alerts and a red-flashing siren until the user steps out of view, after which it successfully counts down and takes a photo of an empty room.
 
 
