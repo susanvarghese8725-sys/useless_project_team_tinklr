@@ -41,7 +41,7 @@ For Hardware:
 For Software:
 # Installation
 - Clone the repository:
-    git clone https://github.com/susanvarghese8725-sys/please-leave.git
+    git clone https://github.com/susanvarghese8725-sys/useless_project_team_tinklr
 - Navigate into the project folder:
   cd please-leave
 
