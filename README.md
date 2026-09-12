@@ -2,96 +2,73 @@
 
 
 
-# [Project Name] 🎯
+#Please Leave🎯
 
 
 ## Basic Details
-### Team Name: [Name]
+### Team Name: TINKLE
 
 
 ### Team Members
-- Team Lead: [Name] - [College]
-- Member 2: [Name] - [College]
-- Member 3: [Name] - [College]
+- Team Lead: Sreegadha S PAI - College of engineering, Adoor
+- Member 2: Susan Varghese - College of engineering, Adoor
 
 ### Project Description
-[2-3 lines about what your project does]
+"Please Leave" is a hostile AI surveillance web application that actively yells at human intruders to get out of its sight. Once the room is completely empty, it takes a high-quality photograph of "absolutely nothing" and celebrates its triumph.
 
 ### The Problem (that doesn't exist)
-[What ridiculous problem are you solving?]
+Photographs are constantly ruined by humans getting in the frame, making it impossible to capture pure, unadulterated background space without someone standing in the way.
 
 ### The Solution (that nobody asked for)
-[How are you solving it? Keep it fun!]
+An overly aggressive web application that uses computer vision to detect humans, berate them using text-to-speech warnings, trigger a flashing alarm siren if they stay too long, and automatically capture a snapshot the exact moment everyone leaves.
 
 ## Technical Details
 ### Technologies/Components Used
 For Software:
-- [Languages used]
-- [Frameworks used]
-- [Libraries used]
-- [Tools used]
+Languages used: HTML5, CSS3, JavaScript (ES6+)
+Frameworks used: None (Vanilla Web Stack)
+Libraries used: TensorFlow.js, COCO-SSD (Pre-trained Object Detection Model), Web Speech API (Browser Text-to-Speech), Web Audio API (Synthesized Alarm Siren)
+Tools used: Visual Studio Code, Live Server, GitHub, GitHub Pages
 
 For Hardware:
-- [List main components]
-- [List specifications]
-- [List tools required]
+
+For Hardware:
+- Laptop with built-in webcam
 
 ### Implementation
 For Software:
 # Installation
-[commands]
+- Clone the repository:
+    git clone https://github.com//please-leave.git
+- Navigate into the project folder:
+  cd please-leave
 
 # Run
-[commands]
+- Open index.html directly in Google Chrome / Microsoft Edge 
+- OR use Visual Studio Code Live Server extension to launch local web server
 
 ### Project Documentation
 For Software:
 
 # Screenshots (Add at least 3)
-![Screenshot1](Add screenshot 1 here with proper name)
-*Add caption explaining what this shows*
 
-![Screenshot2](Add screenshot 2 here with proper name)
-*Add caption explaining what this shows*
-
-![Screenshot3](Add screenshot 3 here with proper name)
-*Add caption explaining what this shows*
 
 # Diagrams
-![Workflow](Add your workflow/architecture diagram here)
+<img width="487" height="591" alt="Screenshot 2026-09-12 194705" src="https://github.com/user-attachments/assets/8dca037c-9bf6-46d5-bba4-7d9c1249ee12" />
+
 *Add caption explaining your workflow*
-
-For Hardware:
-
-# Schematic & Circuit
-![Circuit](Add your circuit diagram here)
-*Add caption explaining connections*
-
-![Schematic](Add your schematic diagram here)
-*Add caption explaining the schematic*
-
-# Build Photos
-![Components](Add photo of your components here)
-*List out all components shown*
-
-![Build](Add photos of build process here)
-*Explain the build steps*
-
-![Final](Add photo of final product here)
-*Explain the final build*
 
 ### Project Demo
 # Video
-[Add your demo video link here]
+
 *Explain what the video demonstrates*
 
-# Additional Demos
-[Add any extra demo materials/links]
+
 
 ## Team Contributions
-- [Name 1]: [Specific contributions]
-- [Name 2]: [Specific contributions]
-- [Name 3]: [Specific contributions]
+- Sreegadha S PAI: Conceptualization, frontend HTML/CSS interface design, Web Audio API & sound effects integration.
+
+- Susan Varghese: TensorFlow.js & COCO-SSD AI model integration, empty frame countdown logic, and GitHub deployment.
 
 ---
 Made with ❤️ at TinkerHub Useless Projects 
