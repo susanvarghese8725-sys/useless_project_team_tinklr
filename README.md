@@ -54,10 +54,10 @@ For Software:
 - Screenshot1: https://github.com/susanvarghese8725-sys/useless_project_team_tinklr/blob/main/Screenshot1.jpeg
 
   A setup screen prompting the user with "Click Start to begin." to grant webcam access.
-- Screenshot2:
+- Screenshot2:https://github.com/susanvarghese8725-sys/useless_project_team_tinklr/blob/main/Screenshot2.jpeg
 
    The camera detects the player in the frame, triggering the red warning: "SECURITY ALERT! Target refuses to leave!"
-- Screenshot3:
+- Screenshot3:https://github.com/susanvarghese8725-sys/useless_project_team_tinklr/blob/main/Screenshot3.jpeg
 
   Success State: The player successfully ducks out of the camera view, prompting a Grand Theft Auto-style "mission passed!" overlay and the humorous message: "Congratulations! You photographed absolutely nothing."
 
