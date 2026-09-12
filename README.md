@@ -39,7 +39,7 @@ For Hardware:
 For Software:
 # Installation
 - Clone the repository:
-    git clone https://github.com//please-leave.git
+    git clone https://github.com/susanvarghese8725-sys/please-leave.git
 - Navigate into the project folder:
   cd please-leave
 
@@ -55,13 +55,12 @@ For Software:
 
 # Diagrams
 <img width="487" height="591" alt="Screenshot 2026-09-12 194705" src="https://github.com/user-attachments/assets/8dca037c-9bf6-46d5-bba4-7d9c1249ee12" />
-
-*Add caption explaining your workflow*
+This diagram illustrates the real-time execution flow of the app: webcam frames are continuously processed by TensorFlow.js and COCO-SSD to detect human presence, triggering voice warnings and a red-flashing audio siren if an intruder lingers, while automatically initiating a 3-second countdown to capture an empty-room snapshot the moment the frame is clear.
 
 ### Project Demo
 # Video
 
-*Explain what the video demonstrates*
+This demonstration shows the "Please Leave" web application detecting a person in the frame, triggering voice alerts and a red-flashing siren until the user steps out of view, after which it successfully counts down and takes a photo of an empty room.
 
 
 
