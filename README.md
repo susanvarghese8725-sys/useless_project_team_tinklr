@@ -51,6 +51,9 @@ For Software:
 For Software:
 
 # Screenshots (Add at least 3)
+- Screenshot1: Initial State: A setup screen prompting the user with "Click Start to begin." to grant webcam access.
+- Screenshot2: Failure State: The camera detects the player in the frame, triggering the red warning: "SECURITY ALERT! Target refuses to leave!"
+- Screenshot3: Success State: The player successfully ducks out of the camera view, prompting a Grand Theft Auto-style "mission passed!" overlay and the humorous message: "Congratulations! You photographed absolutely nothing."
 
 
 # Diagrams
@@ -58,8 +61,6 @@ For Software:
 This diagram illustrates the real-time execution flow of the app: webcam frames are continuously processed by TensorFlow.js and COCO-SSD to detect human presence, triggering voice warnings and a red-flashing audio siren if an intruder lingers, while automatically initiating a 3-second countdown to capture an empty-room snapshot the moment the frame is clear.
 
 ### Project Demo
-# Video
-
 This demonstration shows the "Please Leave" web application detecting a person in the frame, triggering voice alerts and a red-flashing siren until the user steps out of view, after which it successfully counts down and takes a photo of an empty room.
 
 
