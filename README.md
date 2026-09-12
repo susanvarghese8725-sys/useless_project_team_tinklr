@@ -61,6 +61,7 @@ For Software:
 This diagram illustrates the real-time execution flow of the app: webcam frames are continuously processed by TensorFlow.js and COCO-SSD to detect human presence, triggering voice warnings and a red-flashing audio siren if an intruder lingers, while automatically initiating a 3-second countdown to capture an empty-room snapshot the moment the frame is clear.
 
 ### Project Demo
+https://github.com/susanvarghese8725-sys/useless_project_team_tinklr/blob/main/Demo.mp4
 This demonstration shows the "Please Leave" web application detecting a person in the frame, triggering voice alerts and a red-flashing siren until the user steps out of view, after which it successfully counts down and takes a photo of an empty room.
 
 
