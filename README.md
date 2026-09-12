@@ -26,8 +26,11 @@ An overly aggressive web application that uses computer vision to detect humans,
 ### Technologies/Components Used
 For Software:
 Languages used: HTML5, CSS3, JavaScript (ES6+)
+
 Frameworks used: None (Vanilla Web Stack)
+
 Libraries used: TensorFlow.js, COCO-SSD (Pre-trained Object Detection Model), Web Speech API (Browser Text-to-Speech), Web Audio API (Synthesized Alarm Siren)
+
 Tools used: Visual Studio Code, Live Server, GitHub, GitHub Pages
 
 For Hardware:
